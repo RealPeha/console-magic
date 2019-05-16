@@ -12,7 +12,7 @@ const canvas = {
 class Context2D {
     constructor(type) {
         this.fillStyle = '⬛';
-        this.emptyStyle = '⬜';//'░░';
+        this.emptyStyle = '⬜';
         this.map = [];
         for (let i = 0; i < canvas.height; i++) {
             this.map[i] = [];
